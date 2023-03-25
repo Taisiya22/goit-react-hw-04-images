@@ -15,8 +15,7 @@ export const App = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [alt, setAlt] = useState(null);
   const [, setError] = useState(null);
-  // const [totalImage, setTotalImage] = useState(null);
-  // let totalImage = null;
+
   const totalImageRef = useRef(null);
   useEffect(() => {
     if (!searchQuery) {
